@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Section, SectionDivider, SectionTitle } from '../../styles/global-components/app.styles';
+import { Box, Boxes, BoxNum, BoxText } from './acomplishments.styles';
 
 const data = [
   { number: 20, text: 'Open Source Projects'},
