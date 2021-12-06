@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { SiGithub, SiLinkedin, SiPolywork } from 'react-icons/si';
 
 import { SocialIcons } from '../header/header.styles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './footer.styles';
@@ -19,17 +19,17 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Moving forward</Slogan>
+          <Slogan>-First reactions are important</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com'>
-            <AiFillGithub size={30} />
+          <SocialIcons href='https://github.com/DeviousLab'>
+            <SiGithub size={30} />
           </SocialIcons>
-          <SocialIcons href='https://linkedin.com'>
-            <AiFillLinkedin size={30} />
+          <SocialIcons href='https://www.linkedin.com/in/himeshsamara/'>
+            <SiLinkedin size={30} />
           </SocialIcons>
-          <SocialIcons href='https://instagram.com'>
-            <AiFillInstagram size={30} />
+          <SocialIcons href='https://www.polywork.com/devious'>
+            <SiPolywork size={30} />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

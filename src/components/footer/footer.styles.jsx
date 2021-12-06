@@ -88,6 +88,7 @@ export const Slogan = styled.p`
 	font-size: 18px;
 	line-height: 30px;
 	padding: 1rem;
+	font-style: italic;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
