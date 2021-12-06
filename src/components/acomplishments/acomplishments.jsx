@@ -6,6 +6,8 @@ import { AccomplishmentData } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section>
+    <SectionDivider />
+    <br />
     <SectionTitle>Accomplishments</SectionTitle>
     <Boxes>
       {AccomplishmentData.map((item, index) => (
@@ -15,7 +17,6 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider />
   </Section>
 );
 
