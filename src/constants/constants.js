@@ -38,8 +38,16 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2012, text: 'Introduction to programming with Java and BlueJ', },
-  { year: 2014, text: 'First Programming for Everybody (Python) course', },
-  { year: 2019, text: 'Created DeviousLab brand started my developer journey', },
-  { year: 2021, text: 'Fully committed to programming after graduating', },
+  { year: 2017, text: 'Started my journey', },
+  { year: 2018, text: 'Worked as a freelance developer', },
+  { year: 2019, text: 'Founded JavaScript Mastery', },
+  { year: 2020, text: 'Shared my projects with the world', },
+  { year: 2021, text: 'Started my own platform', },
+];
+
+export const AccomplishmentData = [
+  { number: 745, text: 'Commits'},
+  { number: 83, text: 'Pull Requests', },
+  { number: 7, text: 'Issues', },
+  { number: 24, text: 'New Repos', }
 ];
