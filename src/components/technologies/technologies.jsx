@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiGit } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/global-components/app.styles';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './technologies.styles';
 
@@ -11,17 +11,17 @@ const Technologies = () =>  (
       Technologies
     </SectionTitle>
     <SectionText>
-      I have experience with the following technologies:
+      Languages, libraries and frameworks I work with:
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size={40} />
+        <DiReact size={40} />
         <ListContainer>
           <ListTitle>
-            Firebase
+            Frontend
           </ListTitle>
           <ListParagraph>
-            Firebase is a cloud-based platform for hosting and managing web apps.
+            HTML, CSS, JavaScript, Bootstrap 5, Sass, React, Styled Components, Tailwind
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,21 +29,21 @@ const Technologies = () =>  (
         <DiFirebase size={40} />
         <ListContainer>
           <ListTitle>
-            Firebase
+            Backend
           </ListTitle>
           <ListParagraph>
-            Firebase is a cloud-based platform for hosting and managing web apps.
+            Python, Go, Firebase, Mongo DB, PostgreSQL, Node.js 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size={40} />
+        <DiGit size={40} />
         <ListContainer>
           <ListTitle>
-            Firebase
+            Other
           </ListTitle>
           <ListParagraph>
-            Firebase is a cloud-based platform for hosting and managing web apps.
+            AWS, Git, Docker, Kubernetes, Jest, Technical SEO
           </ListParagraph>
         </ListContainer>
       </ListItem>

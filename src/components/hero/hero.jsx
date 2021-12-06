@@ -4,16 +4,16 @@ import { Section, SectionText, SectionTitle } from '../../styles/global-componen
 import Button from '../../styles/global-components/button';
 import { LeftSection } from './hero-styles';
 
-const Hero = () => (
+const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to my portfolio
+        👋 Hi, I'm Himesh
       </SectionTitle>
       <SectionText>
-        I'm a software developer based in the UAE. 
+        A software developer with a primary focus on Full Stack Development. Interested in fields such as Web3 and Cloud DevOps.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={props.handleClick}>Résumé</Button>
     </LeftSection>
   </Section>
 );
