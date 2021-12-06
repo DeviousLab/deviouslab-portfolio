@@ -6,7 +6,7 @@ import { AccomplishmentData } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Acomplishments</SectionTitle>
+    <SectionTitle>Accomplishments</SectionTitle>
     <Boxes>
       {AccomplishmentData.map((item, index) => (
         <Box key={index}>
@@ -15,7 +15,10 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
+    <SectionDivider />
   </Section>
 );
 
 export default Acomplishments;
+
+//Should make this pull data from GitHub API eventually
