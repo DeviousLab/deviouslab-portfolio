@@ -1,4 +1,5 @@
 import React from 'react';
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 import { Section, SectionText, SectionTitle } from '../../styles/global-components/app.styles';
 import Button from '../../styles/global-components/button';
@@ -11,7 +12,10 @@ const Hero = (props) => (
         👋 Hi, I'm Himesh
       </SectionTitle>
       <SectionText>
-        A software developer with a primary focus on Full Stack Development. Interested in fields such as Web3 and Cloud DevOps.
+        A <RoughNotation type="underline" color="red" show={true} order="1">software developer</RoughNotation> from Sri Lanka based in Dubai.
+      </SectionText>
+      <SectionText>
+        I have an interest in <RoughNotation type="highlight" color="rgba(255, 255, 100, 0.3)" show={true} order="2">Full-Stack Development</RoughNotation> and <RoughNotation type="highlight" color="rgba(255, 255, 100, 0.3)" show={true} order="3">DevOps.</RoughNotation>
       </SectionText>
       <Button onClick={props.handleClick}>Résumé</Button>
     </LeftSection>
