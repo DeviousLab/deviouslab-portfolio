@@ -38,16 +38,16 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2013, text: 'First experience with programming using Java and BlueJ', },
+  { year: 2015, text: 'Went to university for Electrical and Electronic Engineering', },
+  { year: 2019, text: 'Switched to software development as a prospective career', },
+  { year: 2020, text: 'Full comitted to self learning web development', },
+  { year: 2022, text: 'Started to seek developer roles', },
 ];
 
 export const AccomplishmentData = [
-  { number: 745, text: 'Commits'},
+  { number: 1256, text: 'Commits'},
   { number: 83, text: 'Pull Requests', },
-  { number: 7, text: 'Issues', },
-  { number: 24, text: 'New Repos', }
+  { number: 4, text: 'Issues', },
+  { number: 53, text: 'Repos Contributed to', }
 ];

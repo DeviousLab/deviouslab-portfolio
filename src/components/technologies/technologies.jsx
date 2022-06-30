@@ -21,7 +21,7 @@ const Technologies = () =>  (
             Frontend
           </ListTitle>
           <ListParagraph>
-            HTML, CSS, JavaScript, Bootstrap 5, Sass, React, Styled Components, Tailwind
+            HTML, CSS, JavaScript, Bootstrap, Sass, React, Styled Components, Tailwind, Gatsby, Next.js 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +32,7 @@ const Technologies = () =>  (
             Backend
           </ListTitle>
           <ListParagraph>
-            Python, Go, Firebase, Mongo DB, PostgreSQL, Node.js 
+            Python, Go, Firebase, Mongo DB, PostgreSQL, Node.js, Linux (Fedora) 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +43,7 @@ const Technologies = () =>  (
             Other
           </ListTitle>
           <ListParagraph>
-            AWS, Git, Docker, Kubernetes, Jest, Technical SEO
+            Amazon Web Services, Google Cloud Platform, Git, Docker, Jest, Technical SEO
           </ListParagraph>
         </ListContainer>
       </ListItem>
