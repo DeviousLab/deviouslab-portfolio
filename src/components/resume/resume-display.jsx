@@ -8,7 +8,7 @@ import { ResumeWrapper, ResumeContainer, ResumeBottom } from './resume-display.s
 
 export default function ResumeDisplay() {
   return (
-    <Section style={{ overflow: 'visible' }}>
+    <Section style={{ overflow: 'auto' }}>
       <ResumeWrapper>
         <ResumeContainer>
           <Document file={'/pdfs/HimeshResume.pdf'}>

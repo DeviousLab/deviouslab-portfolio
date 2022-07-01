@@ -1,27 +1,21 @@
 import styled from 'styled-components';
 
 export const ResumeWrapper = styled.div`
-  background: white;
   margin: auto;
   position: relative;
   border-radius: 5px;
-  box-shadow: 0px 0px 15px 20px rgba(238,238,238,0.3);
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-  }
+  box-shadow: 0px 0px 15px 20px rgba(238,238,238,0.2);
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 export const ResumeContainer = styled.div`
-  width:100%;
-  height:100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
 `;
 
 export const ResumeBottom = styled.div`
