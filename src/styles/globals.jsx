@@ -28,6 +28,10 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
+  a:visited { 
+    text-decoration: none; 
+    color: ${props => props.theme.colors.primary1}; 
+  }
   li{
     list-style: none;
   }

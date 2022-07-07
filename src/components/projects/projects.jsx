@@ -1,4 +1,5 @@
 import React from 'react';
+import { GoLinkExternal, GoCode } from 'react-icons/go';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './projects.styles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/global-components/app.styles';
@@ -13,7 +14,7 @@ const Projects = () => (
         <BlogCard key={id}>
           <Img src={image} alt={title} />
           <TitleContent>
-            <HeaderThree title>{title}</HeaderThree>
+            <HeaderThree title="true">{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>
@@ -30,8 +31,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={source} target="_blank">Source</ExternalLinks>
-            <ExternalLinks href={visit} target="_blank">Visit</ExternalLinks>
+            <ExternalLinks href={source} target="_blank"><GoCode /> <span>Source</span></ExternalLinks>
+            <ExternalLinks href={visit} target="_blank"><GoLinkExternal /> <span>Visit</span></ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
