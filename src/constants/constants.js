@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Cryptowtch',
     description: "A real-time Crypto table that is responsive and shows lots of information about every cryptocurrency using the Coingecko API, with a Firebase backend for user authentication to save their favorite coins.",
-    image: '/images/1.png',
+    image: '/images/Cryptowatch.png',
     tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
     source: 'https://github.com/DeviousLab/cryptowatch',
     visit: 'https://cryptowatch-52efe.web.app/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'E-Commerce Website',
     description: "An e-commerce application with modern design and animations, the ability to add and edit products using Sanity CMS, and advanced cart checkout functionalities with Stripe integration.",
-    image: '/images/2.png',
+    image: '/images/DeviousLab-Store.png',
     tags: ['NextJS', 'Sanity', 'Stripe'],
     source: 'https://github.com/DeviousLab/sanity-next-ecommerce',
     visit: 'http://sanity-next-ecommerce.vercel.app/',
