@@ -1,27 +1,27 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Cryptowtch',
+    description: "A real-time Crypto table that is responsive and shows lots of information about every cryptocurrency using the Coingecko API, with a Firebase backend for user authentication to save their favorite coins.",
+    image: '/images/1.png',
+    tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
+    source: 'https://github.com/DeviousLab/cryptowatch',
+    visit: 'https://cryptowatch-52efe.web.app/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'E-Commerce Website',
+    description: "An e-commerce application with modern design and animations, the ability to add and edit products using Sanity CMS, and advanced cart checkout functionalities with Stripe integration.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['NextJS', 'Sanity', 'Stripe'],
+    source: 'https://github.com/DeviousLab/sanity-next-ecommerce',
+    visit: 'http://sanity-next-ecommerce.vercel.app/',
     id: 1,
   },
   {
     title: 'WebRTC App',
     description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
+    image: '/images/3.jpg',
+    tags: ['React', 'WebRTC'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
@@ -46,8 +46,68 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 1256, text: 'Commits'},
+  { number: 1256, text: 'Commits' },
   { number: 83, text: 'Pull Requests', },
   { number: 4, text: 'Issues', },
   { number: 53, text: 'Repos Contributed to', }
 ];
+
+//TODO Use Github API v4 to get the data
+// Commits and repos contributed to {
+//   user(login: "deviouslab") {
+//     contributionsCollection(
+//       from: "2021-01-01T00:00:00Z"
+//       to: "2021-12-31T23:59:59Z"
+//     ) {
+//       contributionCalendar {
+//         totalContributions
+//       }
+//       totalRepositoriesWithContributedCommits
+//       commitContributionsByRepository(maxRepositories: 100) {
+//         repository {
+//           nameWithOwner
+//           createdAt
+//           stargazerCount
+//         }
+//         contributions {
+//           totalCount
+//         }
+//       }
+//     }
+//   }
+// }
+
+// Pull Requests {
+//   user(login: "deviouslab") {
+//     pullRequests(first: 100) {
+//       totalCount
+//       nodes {
+//         createdAt
+//         number
+//         title
+//       }
+//       pageInfo {
+//         hasNextPage
+//         endCursor
+//       }
+//     }
+//   }
+// }
+
+// Issues {
+//   search(query: "user:deviouslab is:issue", type: ISSUE, last: 100) {
+//     issueCount
+//     edges {
+//       node {
+//         ... on Issue {
+//           title
+//           url
+//           createdAt
+//           number
+//           state
+
+//         }
+//       }
+//     }
+//   }
+// }
