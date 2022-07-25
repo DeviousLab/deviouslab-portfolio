@@ -36,7 +36,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
+  margin-top: 1rem;
+  
 `;
 
 export const HeaderThree = styled.h3`
@@ -71,7 +72,7 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
 }
@@ -110,7 +111,8 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
-border: 1px solid #13ADC7;
+border: 1px solid #025fd4;
 border-radius: 10px;
 padding: .5rem;
+background: #023e8a;
 `;

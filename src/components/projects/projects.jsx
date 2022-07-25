@@ -22,7 +22,7 @@ const Projects = () => (
           </CardInfo>
           <div>
             <TitleContent>
-              Stack
+              <strong>Stack</strong>
             </TitleContent>
             <TagList>
               {tags.map((tag, i) => (

@@ -27,10 +27,7 @@ const GlobalStyles = createGlobalStyle`
   }
   a {
     text-decoration: none;
-  }
-  a:visited { 
-    text-decoration: none; 
-    color: ${props => props.theme.colors.primary1}; 
+    color: inherit;
   }
   li{
     list-style: none;

@@ -66,10 +66,10 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 1256, text: 'Commits' },
-  { number: 83, text: 'Pull Requests', },
-  { number: 4, text: 'Issues', },
-  { number: 53, text: 'Repos Contributed to', }
+  { number: 1301, text: 'Commits' },
+  { number: 77, text: 'Pull Requests', },
+  { number: 5, text: 'Issues', },
+  { number: 49, text: 'Repos Contributed to', }
 ];
 
 //TODO Use Github API v4 to get the data

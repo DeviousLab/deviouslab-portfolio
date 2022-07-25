@@ -21,7 +21,7 @@ const Technologies = () =>  (
             Frontend
           </ListTitle>
           <ListParagraph>
-            HTML, CSS, JavaScript, Bootstrap, Sass, React, Styled Components, Tailwind, Gatsby, Next.js 
+            HTML, CSS, JavaScript, Bootstrap, React, TypeScript, Tailwind, NextJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
