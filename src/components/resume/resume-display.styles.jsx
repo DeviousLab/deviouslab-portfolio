@@ -21,8 +21,9 @@ export const ResumeContainer = styled.div`
 export const ResumeBottom = styled.div`
   transition: background 0.5s;
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  right: 2px;
+  bottom: 2px;
+  width: 50px;
   height: 50px;
   background: #023e8a;
   display: flex;
@@ -30,6 +31,7 @@ export const ResumeBottom = styled.div`
   justify-content: center;
   font-size: 2rem;
   cursor: pointer;
+  border-radius: 50%;
   >svg {
         transition: transform 0.5s;
       }
@@ -38,12 +40,6 @@ export const ResumeBottom = styled.div`
       }
     }
     &:hover >svg {
-      transform: translateY(2px);
-    }
-  >span {
-    transition: transform 0.5s;
-  }
-    &:hover >span {
-      transform: translateY(2px);
+      transform: translateY(3px);
     }
 `;

@@ -2,6 +2,7 @@ import React from 'react'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
 import { HiDocumentDownload } from 'react-icons/hi';
 import Link from 'next/link';
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 import { Section } from '../../styles/global-components/app.styles';
 import { ResumeWrapper, ResumeContainer, ResumeBottom } from './resume-display.styles';
@@ -17,7 +18,7 @@ export default function ResumeDisplay() {
         </ResumeContainer>
         <Link href='/pdfs/HimeshResume.pdf'>
           <ResumeBottom>
-            <span>Download</span> <HiDocumentDownload />
+            <HiDocumentDownload size={30} />
           </ResumeBottom>
         </Link>
       </ResumeWrapper>
