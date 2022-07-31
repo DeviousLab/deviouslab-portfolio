@@ -1,18 +1,15 @@
 import React from 'react';
 import { GoLinkExternal, GoCode } from 'react-icons/go';
-import { BsArrowRight } from 'react-icons/bs';
-import Link from 'next/link';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, Box, BoxText } from './projects.styles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/global-components/app.styles';
-import { topProjects } from '../../constants/constants';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './projects.styles';
+import { Section, SectionTitle } from '../../styles/global-components/app.styles';
+import { allProjects } from '../../constants/constants';
 
-const Projects = () => (
-  <Section nopadding id="projects">
-    <SectionDivider />
+const AllProjects = () => (
+  <Section nopadding >
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {topProjects.map(({ id, title, image, description, tags, source, visit }) => (
+      {allProjects.map(({ id, title, image, description, tags, source, visit }) => (
         <BlogCard key={id}>
           <Img src={image} alt={title} />
           <TitleContent>
@@ -39,14 +36,7 @@ const Projects = () => (
         </BlogCard>
       ))}
     </GridContainer>
-    <Box>
-      <Link href="/projects">      
-      <BoxText>
-        View more projects <BsArrowRight />
-      </BoxText>
-      </Link>
-    </Box>
   </Section>
 );
 
-export default Projects;
+export default AllProjects;

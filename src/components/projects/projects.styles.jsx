@@ -116,3 +116,65 @@ border-radius: 10px;
 padding: .5rem;
 background: #023e8a;
 `;
+
+export const Box = styled.div`
+  background: #212D45;
+  border-radius: 12px;
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+  margin: 0 auto;
+
+  @media ${props => props.theme.breakpoints.lg} {
+    height: 100px;
+    padding: 28px;
+    width: 90%;
+  }
+
+  @media ${props => props.theme.breakpoints.md} {
+    height: 80px;
+    padding: 20px;
+    
+  }
+
+  @media ${props => props.theme.breakpoints.sm} {
+    height: 60px;
+    padding: 16px;
+    margin-top: 2rem;
+  
+  }
+`
+
+export const BoxText = styled.h5`
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  transition: .3s ease;
+  position: relative;
+  left: 0;
+
+  &:hover {
+    color: #fff;
+    left: 10px;
+    cursor: pointer;
+  }
+  @media ${props => props.theme.breakpoints.md} {
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media ${props => props.theme.breakpoints.sm} {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  > svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+`
