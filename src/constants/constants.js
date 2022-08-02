@@ -1,27 +1,27 @@
 export const topProjects = [
   {
+    title: 'Reddit Clone',
+    description: "A full-stack clone of Reddit, with added functionalities like user auth. Users can create posts, comment, and vote on posts",
+    image: '/images/Reddit-Clone.png',
+    tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
+    source: 'https://github.com/DeviousLab/reddit-clone',
+    visit: 'http://reddit-clone-two-eosin.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Cryptowatch',
     description: "A real-time Crypto table that is responsive and displays information about every cryptocurrency using the Coingecko API, Firebase backend for user authentication to save their favorite coins.",
     image: '/images/Cryptowatch.png',
     tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
     source: 'https://github.com/DeviousLab/cryptowatch',
     visit: 'https://cryptowatch-52efe.web.app/',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce Website',
-    description: "An e-commerce application with modern design and animations, the ability to add and edit products using Sanity CMS, and advanced cart checkout functionalities with Stripe integration.",
-    image: '/images/DeviousLab-Store.png',
-    tags: ['NextJS', 'Sanity', 'Stripe'],
-    source: 'https://github.com/DeviousLab/sanity-next-ecommerce',
-    visit: 'https://sanity-next-ecommerce.vercel.app/',
     id: 1,
   },
   {
     title: 'Kanban Board',
     description: "A Kanban board application with a drag-and-drop functionality, and a real-time database integration with MongoDB.",
     image: '/images/Kanban-Board.png',
-    tags: ['React', 'MongoDB', 'Express'],
+    tags: ['React', 'MongoDB', 'Express', 'Material UI'],
     source: 'https://github.com/DeviousLab/mern-kanban-board',
     visit: 'https://mern-kanban-board.herokuapp.com/',
     id: 2,
@@ -34,27 +34,27 @@ export const topProjects = [
     source: 'https://github.com/DeviousLab/web-chat',
     visit: 'https://web-chat-nine.vercel.app/',
     id: 3,
-  },
-  {
-    title: 'Vacation Home Rental',
-    description: "An app built with NextJS that allows users to rent a vacation home using a Supabase PostgreSQL database and Prisma ORM.",
-    image: '/images/Vacation-Homes.png',
-    tags: ['NextJS', 'Prisma', 'PostgreSQL', 'Tailwind'],
-    source: 'https://github.com/DeviousLab/vacation-home-rental',
-    visit: 'https://vacation-home-rental.vercel.app/',
-    id: 5,
   },
 ];
 
 export const allProjects = [
   {
+    title: 'Reddit Clone',
+    description: "A full-stack clone of Reddit, with added functionalities like user auth. Users can create posts, comment, and vote on posts",
+    image: '/images/Reddit-Clone.png',
+    tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
+    source: 'https://github.com/DeviousLab/reddit-clone',
+    visit: 'http://reddit-clone-two-eosin.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Cryptowatch',
     description: "A real-time Crypto table that is responsive and displays information about every cryptocurrency using the Coingecko API, Firebase backend for user authentication to save their favorite coins.",
     image: '/images/Cryptowatch.png',
     tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
     source: 'https://github.com/DeviousLab/cryptowatch',
     visit: 'https://cryptowatch-52efe.web.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'E-Commerce Website',
@@ -63,16 +63,16 @@ export const allProjects = [
     tags: ['NextJS', 'Sanity', 'Stripe'],
     source: 'https://github.com/DeviousLab/sanity-next-ecommerce',
     visit: 'https://sanity-next-ecommerce.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Kanban Board',
     description: "A Kanban board application with a drag-and-drop functionality, and a real-time database integration with MongoDB.",
     image: '/images/Kanban-Board.png',
-    tags: ['React', 'MongoDB', 'Express'],
+    tags: ['React', 'MongoDB', 'Express', 'Material UI'],
     source: 'https://github.com/DeviousLab/mern-kanban-board',
     visit: 'https://mern-kanban-board.herokuapp.com/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Web Chat',
@@ -81,7 +81,7 @@ export const allProjects = [
     tags: ['React', 'CometChat', 'Firebase'],
     source: 'https://github.com/DeviousLab/web-chat',
     visit: 'https://web-chat-nine.vercel.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Vacation Home Rental',
@@ -114,8 +114,8 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 1301, text: 'Commits' },
-  { number: 77, text: 'Pull Requests', },
+  { number: 1341, text: 'Commits' },
+  { number: 80, text: 'Pull Requests', },
   { number: 5, text: 'Issues', },
   { number: 49, text: 'Repos Contributed to', }
 ];
