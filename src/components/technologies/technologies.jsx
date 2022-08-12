@@ -32,7 +32,7 @@ const Technologies = () =>  (
             Backend
           </ListTitle>
           <ListParagraph>
-            Python, Go, Firebase, Mongo DB, PostgreSQL, Node.js, Linux (Fedora) 
+            Python(FastAPI, Flask) Go, Firebase, Mongo DB, PostgreSQL, Node.js, Linux (Fedora) 
           </ListParagraph>
         </ListContainer>
       </ListItem>

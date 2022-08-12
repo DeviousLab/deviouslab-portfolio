@@ -48,6 +48,24 @@ export const allProjects = [
     id: 0,
   },
   {
+    title: 'DNJokes API',
+    description: "An immature API that allows users to access a collection of jokes about Deez Nuts to use in their applications. Added to RapidAPI.",
+    image: '/images/DNJokes-API.png',
+    tags: ['FastAPI', 'Supabase', 'SlowAPI', 'Deta'],
+    source: 'https://github.com/DeviousLab/DNJokes-API',
+    visit: 'https://deezjokes.deta.dev/',
+    id: 1,
+  },
+  {
+    title: 'Animal Classifier',
+    description: "A web application that uses a trained model to classify images of animals. The model was trained using numerous images of animals with SciKit.",
+    image: '/images/Animal-Classifier.png',
+    tags: ['Flask', 'Bootstrap', 'Numpy', 'SciKit', 'Pandas'],
+    source: 'https://github.com/DeviousLab/animal-classification',
+    visit: 'http://deviouslab.pythonanywhere.com/',
+    id: 2,
+  },
+  {
     title: 'Cryptowatch',
     description: "A real-time Crypto table that is responsive and displays information about every cryptocurrency using the Coingecko API, Firebase backend for user authentication to save their favorite coins.",
     image: '/images/Cryptowatch.png',
@@ -102,8 +120,6 @@ export const allProjects = [
     id: 6,
   },
 ];
-
-//TODO: Make separate component to display all projects, and only show best ones.
 
 export const TimeLineData = [
   { year: 2013, text: 'First experience with programming using Java and BlueJ', },

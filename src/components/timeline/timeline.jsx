@@ -46,7 +46,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        With a primary focus on web development, I enjoy bridging the gap between engineering and design, fostering a harmonius relationship between technical knowledge and aesthetic design to create a beautiful product. My goal is to always build production ready applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
+        With a primary focus on full stack applications, I enjoy bridging the gap between engineering and design, fostering a harmonius relationship between technical knowledge and aesthetic design to create a beautiful product. My goal is to always build production ready applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
