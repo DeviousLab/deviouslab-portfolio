@@ -39,12 +39,12 @@ export const topProjects = [
 
 export const allProjects = [
   {
-    title: 'Reddit Clone',
-    description: "A full-stack clone of Reddit, with added functionalities like user auth. Users can create posts, comment, and vote on posts",
-    image: '/images/Reddit-Clone.png',
-    tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
-    source: 'https://github.com/DeviousLab/reddit-clone',
-    visit: 'http://reddit-clone-two-eosin.vercel.app/',
+    title: 'UX Portfolio (WIP)',
+    description: "A web portfolio for a UX designer showcasing their skills and projects.",
+    image: '/images/UX-Portfolio.png',
+    tags: ['Astro', 'Preact', 'Netlify CMS', 'Tailwind'],
+    source: 'https://github.com/DeviousLab/ux-portfolio-astro',
+    visit: 'https://tharushi-ux-portfolio.netlify.app/',
     id: 0,
   },
   {
@@ -66,13 +66,22 @@ export const allProjects = [
     id: 2,
   },
   {
+    title: 'Reddit Clone',
+    description: "A full-stack clone of Reddit, with added functionalities like user auth. Users can create posts, comment, and vote on posts",
+    image: '/images/Reddit-Clone.png',
+    tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
+    source: 'https://github.com/DeviousLab/reddit-clone',
+    visit: 'http://reddit-clone-two-eosin.vercel.app/',
+    id: 3,
+  },
+  {
     title: 'Cryptowatch',
     description: "A real-time Crypto table that is responsive and displays information about every cryptocurrency using the Coingecko API, Firebase backend for user authentication to save their favorite coins.",
     image: '/images/Cryptowatch.png',
     tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
     source: 'https://github.com/DeviousLab/cryptowatch',
     visit: 'https://cryptowatch-52efe.web.app/',
-    id: 1,
+    id: 4,
   },
   {
     title: 'E-Commerce Website',
@@ -81,7 +90,7 @@ export const allProjects = [
     tags: ['NextJS', 'Sanity', 'Stripe'],
     source: 'https://github.com/DeviousLab/sanity-next-ecommerce',
     visit: 'https://sanity-next-ecommerce.vercel.app/',
-    id: 2,
+    id: 5,
   },
   {
     title: 'Kanban Board',
@@ -90,7 +99,7 @@ export const allProjects = [
     tags: ['React', 'MongoDB', 'Express', 'Material UI'],
     source: 'https://github.com/DeviousLab/mern-kanban-board',
     visit: 'https://mern-kanban-board.herokuapp.com/',
-    id: 3,
+    id: 6,
   },
   {
     title: 'Web Chat',
@@ -99,7 +108,7 @@ export const allProjects = [
     tags: ['React', 'CometChat', 'Firebase'],
     source: 'https://github.com/DeviousLab/web-chat',
     visit: 'https://web-chat-nine.vercel.app/',
-    id: 4,
+    id: 7,
   },
   {
     title: 'Vacation Home Rental',
@@ -108,7 +117,7 @@ export const allProjects = [
     tags: ['NextJS', 'Prisma', 'PostgreSQL', 'Tailwind'],
     source: 'https://github.com/DeviousLab/vacation-home-rental',
     visit: 'https://vacation-home-rental.vercel.app/',
-    id: 5,
+    id: 8,
   },
   {
     title: 'Construction Agency Site',
@@ -117,7 +126,7 @@ export const allProjects = [
     tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     source: 'https://tanmupms.com/',
     visit: 'https://tanmupms.com/',
-    id: 6,
+    id: 9,
   },
 ];
 
