@@ -19,7 +19,7 @@ const Hero = () => (
         I have an interest in <RoughNotation type="highlight" color="rgba(255, 255, 100, 0.3)" animationDuration={2000} show={true} order="2">Full-Stack Development</RoughNotation> and <RoughNotation type="highlight" color="rgba(255, 255, 100, 0.3)" animationDuration={2000} show={true} order="3">DevOps.</RoughNotation>
       </SectionText>
       <Button>
-        <Link href='/resume'>Résumé</Link>
+        <Link href='/pdfs/HimeshResume.pdf'>Résumé</Link>
       </Button>
     </LeftSection>
   </Section>
