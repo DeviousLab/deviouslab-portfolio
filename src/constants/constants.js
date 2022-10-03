@@ -1,20 +1,20 @@
 export const topProjects = [
   {
+    title: 'triage (WIP)',
+    description: "A SaaS that allows users to keep track of their blood test reports in one place.",
+    image: '/images/triage.png',
+    tags: ['Typescript', 'NextJS', 'AWS', 'FastAPI', 'Tailwind'],
+    source: 'https://github.com/DeviousLab/blood-test-tracker',
+    visit: 'https://triage-kappa.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Reddit Clone',
     description: "A full-stack clone of Reddit, with added functionalities like user auth. Users can create posts, comment, and vote on posts",
     image: '/images/Reddit-Clone.png',
     tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
     source: 'https://github.com/DeviousLab/reddit-clone',
     visit: 'http://reddit-clone-two-eosin.vercel.app/',
-    id: 0,
-  },
-  {
-    title: 'Cryptowatch',
-    description: "A real-time Crypto table that is responsive and displays information about every cryptocurrency using the Coingecko API, Firebase backend for user authentication to save their favorite coins.",
-    image: '/images/Cryptowatch.png',
-    tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
-    source: 'https://github.com/DeviousLab/cryptowatch',
-    visit: 'https://cryptowatch-52efe.web.app/',
     id: 1,
   },
   {
@@ -39,13 +39,22 @@ export const topProjects = [
 
 export const allProjects = [
   {
-    title: 'UX Portfolio (WIP)',
+    title: 'triage (WIP)',
+    description: "A SaaS that allows users to keep track of their blood test reports in one place.",
+    image: '/images/triage.png',
+    tags: ['Typescript', 'NextJS', 'AWS', 'FastAPI', 'Tailwind'],
+    source: 'https://github.com/DeviousLab/blood-test-tracker',
+    visit: 'https://triage-kappa.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'UX Portfolio',
     description: "A web portfolio for a UX designer showcasing their skills and projects.",
     image: '/images/UX-Portfolio.png',
     tags: ['Astro', 'Preact', 'Netlify CMS', 'Tailwind'],
     source: 'https://github.com/DeviousLab/ux-portfolio-astro',
-    visit: 'https://tharushi-ux-portfolio.netlify.app/',
-    id: 0,
+    visit: 'https://tharushidesign.com/',
+    id: 1,
   },
   {
     title: 'DNJokes API',
@@ -54,7 +63,7 @@ export const allProjects = [
     tags: ['FastAPI', 'Supabase', 'SlowAPI', 'Deta'],
     source: 'https://github.com/DeviousLab/DNJokes-API',
     visit: 'https://deezjokes.deta.dev/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Animal Classifier',
@@ -63,7 +72,7 @@ export const allProjects = [
     tags: ['Flask', 'Bootstrap', 'Numpy', 'SciKit', 'Pandas'],
     source: 'https://github.com/DeviousLab/animal-classification',
     visit: 'http://deviouslab.pythonanywhere.com/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Reddit Clone',
@@ -72,7 +81,7 @@ export const allProjects = [
     tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
     source: 'https://github.com/DeviousLab/reddit-clone',
     visit: 'http://reddit-clone-two-eosin.vercel.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Cryptowatch',
@@ -81,7 +90,7 @@ export const allProjects = [
     tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
     source: 'https://github.com/DeviousLab/cryptowatch',
     visit: 'https://cryptowatch-52efe.web.app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'E-Commerce Website',
@@ -90,7 +99,7 @@ export const allProjects = [
     tags: ['NextJS', 'Sanity', 'Stripe'],
     source: 'https://github.com/DeviousLab/sanity-next-ecommerce',
     visit: 'https://sanity-next-ecommerce.vercel.app/',
-    id: 5,
+    id: 6,
   },
   {
     title: 'Kanban Board',
@@ -99,7 +108,7 @@ export const allProjects = [
     tags: ['React', 'MongoDB', 'Express', 'Material UI'],
     source: 'https://github.com/DeviousLab/mern-kanban-board',
     visit: 'https://mern-kanban-board.herokuapp.com/',
-    id: 6,
+    id: 7,
   },
   {
     title: 'Web Chat',
@@ -108,7 +117,7 @@ export const allProjects = [
     tags: ['React', 'CometChat', 'Firebase'],
     source: 'https://github.com/DeviousLab/web-chat',
     visit: 'https://web-chat-nine.vercel.app/',
-    id: 7,
+    id: 8,
   },
   {
     title: 'Vacation Home Rental',
@@ -117,7 +126,7 @@ export const allProjects = [
     tags: ['NextJS', 'Prisma', 'PostgreSQL', 'Tailwind'],
     source: 'https://github.com/DeviousLab/vacation-home-rental',
     visit: 'https://vacation-home-rental.vercel.app/',
-    id: 8,
+    id: 9,
   },
   {
     title: 'Construction Agency Site',
@@ -126,7 +135,7 @@ export const allProjects = [
     tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     source: 'https://tanmupms.com/',
     visit: 'https://tanmupms.com/',
-    id: 9,
+    id: 10,
   },
 ];
 
@@ -139,7 +148,7 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 1937, text: 'Commits' },
+  { number: 2202, text: 'Commits' },
   { number: 80, text: 'Pull Requests', },
   { number: 5, text: 'Issues', },
   { number: 56, text: 'Repos Contributed to', }
