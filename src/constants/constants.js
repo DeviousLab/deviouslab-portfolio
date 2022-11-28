@@ -9,13 +9,22 @@ export const topProjects = [
     id: 0,
   },
   {
+    title: 'OWLOST',
+    description: "A player movement tracker for the Overwatch League during the off-season.",
+    image: '/images/OWLOST.png',
+    tags: ['Typescript', 'NextJS', 'Tailwind', 'Tanstack Table', 'Sanity'],
+    source: 'https://github.com/DeviousLab/owl-offseason-tracker',
+    visit: 'https://owlost.vercel.app/',
+    id: 2,
+  },
+  {
     title: 'Reddit Clone',
     description: "A full-stack clone of Reddit, with added functionalities like user auth. Users can create posts, comment, and vote on posts",
     image: '/images/Reddit-Clone.png',
     tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
     source: 'https://github.com/DeviousLab/reddit-clone',
     visit: 'http://reddit-clone-two-eosin.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Kanban Board',
@@ -24,15 +33,6 @@ export const topProjects = [
     tags: ['React', 'MongoDB', 'Express', 'Material UI'],
     source: 'https://github.com/DeviousLab/mern-kanban-board',
     visit: 'https://mern-kanban-board.herokuapp.com/',
-    id: 2,
-  },
-  {
-    title: 'Web Chat',
-    description: "A real-time web chat application using the CometChat widget and Firebase backend services.",
-    image: '/images/Web-Chat.png',
-    tags: ['React', 'CometChat', 'Firebase'],
-    source: 'https://github.com/DeviousLab/web-chat',
-    visit: 'https://web-chat-nine.vercel.app/',
     id: 3,
   },
 ];
@@ -57,13 +57,22 @@ export const allProjects = [
     id: 1,
   },
   {
+    title: 'OWLOST',
+    description: "A player movement tracker for the Overwatch League during the off-season.",
+    image: '/images/OWLOST.png',
+    tags: ['Typescript', 'NextJS', 'Tailwind', 'Tanstack Table', 'Sanity'],
+    source: 'https://github.com/DeviousLab/owl-offseason-tracker',
+    visit: 'https://owlost.vercel.app/',
+    id: 2,
+  },
+  {
     title: 'DNJokes API',
     description: "An immature API that allows users to access a collection of jokes about Deez Nuts to use in their applications. Added to RapidAPI.",
     image: '/images/DNJokes-API.png',
     tags: ['FastAPI', 'Supabase', 'SlowAPI', 'Deta'],
     source: 'https://github.com/DeviousLab/DNJokes-API',
     visit: 'https://deezjokes.deta.dev/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Animal Classifier',
@@ -72,7 +81,7 @@ export const allProjects = [
     tags: ['Flask', 'Bootstrap', 'Numpy', 'SciKit', 'Pandas'],
     source: 'https://github.com/DeviousLab/animal-classification',
     visit: 'http://deviouslab.pythonanywhere.com/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Reddit Clone',
@@ -81,7 +90,7 @@ export const allProjects = [
     tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
     source: 'https://github.com/DeviousLab/reddit-clone',
     visit: 'http://reddit-clone-two-eosin.vercel.app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Cryptowatch',
@@ -90,7 +99,7 @@ export const allProjects = [
     tags: ['Firebase', 'React', 'Tailwind', 'REST API'],
     source: 'https://github.com/DeviousLab/cryptowatch',
     visit: 'https://cryptowatch-52efe.web.app/',
-    id: 5,
+    id: 6,
   },
   {
     title: 'E-Commerce Website',
@@ -99,7 +108,7 @@ export const allProjects = [
     tags: ['NextJS', 'Sanity', 'Stripe'],
     source: 'https://github.com/DeviousLab/sanity-next-ecommerce',
     visit: 'https://sanity-next-ecommerce.vercel.app/',
-    id: 6,
+    id: 7,
   },
   {
     title: 'Kanban Board',
@@ -108,7 +117,7 @@ export const allProjects = [
     tags: ['React', 'MongoDB', 'Express', 'Material UI'],
     source: 'https://github.com/DeviousLab/mern-kanban-board',
     visit: 'https://mern-kanban-board.herokuapp.com/',
-    id: 7,
+    id: 8,
   },
   {
     title: 'Web Chat',
@@ -117,7 +126,7 @@ export const allProjects = [
     tags: ['React', 'CometChat', 'Firebase'],
     source: 'https://github.com/DeviousLab/web-chat',
     visit: 'https://web-chat-nine.vercel.app/',
-    id: 8,
+    id: 9,
   },
   {
     title: 'Vacation Home Rental',
@@ -126,7 +135,7 @@ export const allProjects = [
     tags: ['NextJS', 'Prisma', 'PostgreSQL', 'Tailwind'],
     source: 'https://github.com/DeviousLab/vacation-home-rental',
     visit: 'https://vacation-home-rental.vercel.app/',
-    id: 9,
+    id: 10,
   },
   {
     title: 'Construction Agency Site',
@@ -135,7 +144,7 @@ export const allProjects = [
     tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     source: 'https://tanmupms.com/',
     visit: 'https://tanmupms.com/',
-    id: 10,
+    id: 11,
   },
 ];
 
@@ -148,7 +157,7 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 2202, text: 'Commits' },
+  { number: 2801, text: 'Commits' },
   { number: 80, text: 'Pull Requests', },
   { number: 5, text: 'Issues', },
   { number: 56, text: 'Repos Contributed to', }
