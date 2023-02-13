@@ -9,6 +9,15 @@ export const topProjects = [
     id: 0,
   },
   {
+    title: 'Realtime Chat App',
+    description: "A platform where users can creat conversations with each other or as a group, built to mimic iMessage.",
+    image: '/images/Realtime-Chat-App.png',
+    tags: ['Typescript', 'NextJS', 'GraphQL', 'Prisma', 'MongoDB', 'Chakra'],
+    source: 'https://github.com/DeviousLab/realtime-chat-app',
+    visit: 'https://realtime-chat-app-rho.vercel.app/',
+    id: 1,
+  },
+  {
     title: 'OWLOST',
     description: "A player movement tracker for the Overwatch League during the off-season.",
     image: '/images/OWLOST.png',
@@ -24,7 +33,7 @@ export const topProjects = [
     tags: ['Typescript', 'NextJS', 'Firebase', 'Recoil', 'Chakra'],
     source: 'https://github.com/DeviousLab/reddit-clone',
     visit: 'http://reddit-clone-two-eosin.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Kanban Board',
@@ -33,7 +42,7 @@ export const topProjects = [
     tags: ['React', 'MongoDB', 'Express', 'Material UI'],
     source: 'https://github.com/DeviousLab/mern-kanban-board',
     visit: 'https://mern-kanban-board.herokuapp.com/',
-    id: 3,
+    id: 4,
   },
 ];
 
@@ -138,13 +147,22 @@ export const allProjects = [
     id: 10,
   },
   {
+    title: 'Realtime Chat App',
+    description: "A platform where users can creat conversations with each other or as a group, built to mimic iMessage.",
+    image: '/images/Realtime-Chat-App.png',
+    tags: ['Typescript', 'NextJS', 'GraphQL', 'Prisma', 'MongoDB', 'Chakra'],
+    source: 'https://github.com/DeviousLab/realtime-chat-app',
+    visit: 'https://realtime-chat-app-rho.vercel.app/',
+    id: 11,
+  },
+  {
     title: 'Construction Agency Site',
     description: "A static site built using HTML, CSS and JavasScript alongside the Bootstrap V4 framework.",
     image: '/images/Tanmu-PMS.png',
     tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     source: 'https://tanmupms.com/',
     visit: 'https://tanmupms.com/',
-    id: 11,
+    id: 12,
   },
 ];
 
@@ -157,7 +175,7 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 2801, text: 'Commits' },
+  { number: 3851, text: 'Commits' },
   { number: 80, text: 'Pull Requests', },
   { number: 5, text: 'Issues', },
   { number: 56, text: 'Repos Contributed to', }

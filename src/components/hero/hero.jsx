@@ -13,7 +13,7 @@ const Hero = () => (
         👋 Hi, I'm Himesh
       </SectionTitle>
       <SectionText>
-        A <RoughNotation type="underline" color="red" show={true} order="1">software developer</RoughNotation> from Sri Lanka based in Dubai.
+        A passionate <RoughNotation type="underline" color="red" show={true} order="1">software developer</RoughNotation> based in Dubai.
       </SectionText>
       <SectionText>
         I have an interest in <RoughNotation type="highlight" color="rgba(255, 255, 100, 0.3)" animationDuration={2000} show={true} order="2">Full-Stack Development</RoughNotation> and <RoughNotation type="highlight" color="rgba(255, 255, 100, 0.3)" animationDuration={2000} show={true} order="3">DevOps.</RoughNotation>
